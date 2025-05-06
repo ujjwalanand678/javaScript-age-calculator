@@ -34,7 +34,7 @@ body {
     font-size: 30px;
     font-weight: bolder;
 }
-.btn button {
+.btn{
   align-items: center;
   appearance: none;
   background-color: #0a66c2;
