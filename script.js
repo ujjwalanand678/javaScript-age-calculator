@@ -66,10 +66,13 @@ const ageCalculator = () => {
     currentAgeMonth = 11;
     currentAgeYear--;
   };
-
+  message.style.textShadow = "2px 2px 4px rgba(0, 217, 255, 0.71)";
+  message.style.border = "2px solid rgb(206, 206, 206)";
+  message.style.borderRadius = "6px";
+  message.style.padding = "8px";
   message.style.fontSize = "18px";
   message.textContent = `You are ${currentAgeYear} years, ${currentAgeMonth} months , 
-                         ${currentAgeDate} days old.`
+                         ${currentAgeDate} days old this year.`
 };
 
 button.addEventListener("click", ageCalculator);
