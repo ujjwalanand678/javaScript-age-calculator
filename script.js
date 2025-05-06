@@ -67,7 +67,8 @@ const ageCalculator = () => {
     currentAgeYear--;
   };
 
-  message.textContent = `You are ${currentAgeYear} years, ${currentAgeMonth} months , ${currentAgeDate} days old`
+  message.textContent = `You are ${currentAgeYear} years, ${currentAgeMonth} months , 
+                         ${currentAgeDate} days old`
 };
 
 button.addEventListener("click", ageCalculator);
