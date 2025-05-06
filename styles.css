@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(69, 69, 69);
+  color: rgb(206, 206, 206);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(38, 38, 38);
+  width: 40%;
+  height: 300px;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 100px;
+  left: 375px;
+  border-radius: 10px;
+}
+.date-time input {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(218, 218, 218);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 10px;
+  width: 130px;
+  height: 36px;
+}
+
+.heading p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.btn button {
+  align-items: center;
+  appearance: none;
+  background-color: #0a66c2;
+  border-radius: 10px;
+  border-style: none;
+  color: #edeeef;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  margin: 20px;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+}
